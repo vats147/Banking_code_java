@@ -11,7 +11,7 @@ if [ -f $file_name ]
 		#cat > $file_name(single angular bracket use for overwritten)
 		#cat >> $file_name(two angular bracket use for appending a text)
 		
-		cat >>" $file_name " 
+		cat >> $file_name  
 	else
 		echo " file not have write permission"		
 	fi
